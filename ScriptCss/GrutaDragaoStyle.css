@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+}
+.borda{
+    height: 30px;
+    background-color: #2a2621;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.logo{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 1000px;
+    height: 600px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #269e98;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+.nav-items {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item a {
+    color: azure;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.nav-item .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #269e98;
+    list-style-type: none;
+    padding: 0;
+    z-index: 1;
+}
+
+.dropdown li a {
+    padding: 10px 15px;
+    white-space: nowrap;
+    color: azure;
+}
+
+.nav-item a:hover{
+    color: #FFD700;
+    background-color: aliceblue;
+}
+
+.dropdown li a:hover {
+    color: #FFD700;
+    background-color: aliceblue;
+
+}
+
+.nav-item:hover .dropdown {
+    display: block;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.search-box input {
+    padding: 7px 15px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-box button {
+    padding: 7px 15px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.search-box button:hover {
+    color: #FFD700;
+    background-color: aliceblue;
+}
+
+body{
+    font-family:cursive;
+    background-color: #e8d3b5; /* Cor de fundo da página */
+    color: #F5F5F5;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-items: center;
+  }
+.card {
+    position: relative;
+    width: 260px;
+    border-radius: 20px;
+    background-color: #269e98;
+    border-radius: 20px; /* aredondamento da borda */
+    color: aliceblue;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+  }
+.imgcard:hover {
+    transform: scale(1.1);
+    border-radius: 20px;
+  }
+.card-img-top{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 20px;
+}
+.imgcard{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 20px;
+}
+.card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+  }
+.card h2:hover {
+    transform: scale(1.1);
+}
+.caixape{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.caixapediv{
+    padding: 10px;
+    background-color: #269e98;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.caixapediv ul{
+    margin-top: 10px;
+    list-style-type: none;
+}
+a{
+    color: #EEE8AA;
+   
+}
+a:hover{
+    color: #FFD700;
+}
+.dropdown-item:hover{
+    color: #FFD700;
+    background-color: aliceblue;
+}
+#petext{
+    text-align: center;
+}
+.CaixaApres{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #269e98;
+    gap: 12px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+
+}
+#imgpress{
+    border-radius: 20px;
+    width: 650px;
+    height: 900px;
+}
+.direi{
+    text-align: center;
+    background-color: #2a2621;
+    width: 100%;
+    height: 30%;
+    padding-top: 0.7%;
+    padding-bottom: 0.01%;
+    margin-bottom: -6%;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #269e98; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+
+#myBtn:hover {
+    background-color: #FFD700; /* Add a dark-grey background on hover */
+    color: black;
+  }
