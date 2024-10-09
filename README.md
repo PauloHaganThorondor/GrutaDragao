@@ -6,24 +6,24 @@ Descrição do Site:
 
 No topo do site é visto a logo da Casa de Festas com sua mascote, porém a cada página tem sua versão de mascote, ao clicar na imagem sempre te leva a página de Home do site.
 
-![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragaoWebSIte/blob/main/Imagens%20do%20Site/CapturaTelaInicio.jpg)
+![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragao/blob/main/Imagens%20do%20Site/CapturaTelaInicio.jpg)
 
 Essa é da Tela de Home.
 
-![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragaoWebSIte/blob/main/Imagens%20do%20Site/CapturaTelaInicioNovoLog.jpg)
+![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragao/blob/main/Imagens%20do%20Site/CapturaTelaInicioNovoLog.jpg)
 
 Essa e da Tela do Salão de Festas
 
 Seguindo mais embaixo pode se ver uma descrição sobre a casa de Festas.
 
-![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragaoWebSIte/blob/main/Imagens%20do%20Site/CapturaTelaNavbar.jpg)
+![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragao/blob/main/Imagens%20do%20Site/CapturaTelaNavbar.jpg)
 
 E na parte final, o rodapé, está links de informações e outras informações da Casa de Festas, além do ano do site e um link que leva ao site que as figurinhas do Dragão foram desenvolvidas.
 
-![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragaoWebSIte/blob/main/Imagens%20do%20Site/CapturaTelaInicioMeio.jpg)
+![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragao/blob/main/Imagens%20do%20Site/CapturaTelaInicioMeio.jpg)
 
 Ao descer um pouco aparece o botão de subir até o topo e os demais componentes do site, como a navbar que tem algumas opções que levam as outras páginas do site, mas caso o usuário não queira pode fazer uma pesquisa usando as palavras citadas a cima ou escolher numa das imagens com link direto para tais páginas.
 
-![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragaoWebSIte/blob/main/Imagens%20do%20Site/CapturaTelaInicioFim.jpg)
+![Descrição da imagem](https://github.com/PauloHaganThorondor/GrutaDragao/blob/main/Imagens%20do%20Site/CapturaTelaInicioFim.jpg)
 
 Seguindo mais embaixo pode se ver uma descrição sobre a casa de Festas.
